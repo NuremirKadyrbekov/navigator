@@ -1,0 +1,491 @@
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Permanent+Marker&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Gruppo&family=Julee&family=Permanent+Marker&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amatic+SC:wght@700&family=Gruppo&family=Julee&family=Permanent+Marker&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amatic+SC:wght@700&family=BenchNine:wght@300&family=Gruppo&family=Julee&family=Permanent+Marker&display=swap');
+
+
+
+*{
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+.Kyrgyzstan{
+    font-family: 'Alex Brush', cursive;
+    position: absolute;
+    font-size: 80px;
+    color: #fcfcfc85;
+}
+.logo{
+    margin-top: 70px;
+   margin-left: 480px;
+   
+    position: absolute;
+}
+.title{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: #fcfcfc;
+}
+.listMenu {
+    
+    font-family: 'BenchNine', sans-serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+   
+    
+}
+
+.listMenu li{
+    margin: 10px 0;
+    
+}
+.title span{
+    color: #f3f2cd;
+}
+
+.listMenu li a{
+    color: #fcfcfc;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 25px;
+    border-left: 2px solid #f3f2cd;
+    padding-left: 5px;
+    transition:  all 0.2s ease;
+
+
+}
+.listMenu li a:hover{
+    border-left: 2px solid #f3f2cd;
+    padding-left: 10px;
+    transition:  all 0.2s ease;
+    
+}
+.menu{
+    
+    padding: 5vh 50px;
+    background: rgba(20, 20, 20, 0);
+    position: fixed;
+    height: 94vh;
+    backdrop-filter: blur(16px);
+    border-right: 3px solid rgba(107, 102, 102, 0.315);
+    border-bottom: 3px solid rgba(107, 102, 102, 0.315);
+    left: -240px;
+    border-radius: 10px;
+}
+.menu:hover{
+    border: none;
+    background: rgb(20, 20, 20, 0.5);
+    left: 0;
+    transition: all 0.4s ease;
+    
+}
+.footerMenu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fcfcfc;
+}
+.content{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+
+
+/* TOP MENU */
+
+
+.title1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: #fcfcfc;
+}
+.listMenu1 {
+    
+    font-family: 'BenchNine', sans-serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+ 
+    
+}
+.Left{
+    transition: 0.3s;
+    width: 40px;
+    margin-left: 190px;
+    position: absolute;
+}
+.Left:hover{
+    transition: 0.3s;
+    display: none;
+}
+.top{
+    width: 40px;
+    transform: rotate(90deg);
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 75vh;
+}
+.listMenu1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+   margin-right: 60px;
+
+}
+.listMenu1 li{
+    margin: 20px 0;
+    
+    
+}
+.title1 span{
+    color: #f3f2cd;
+}
+
+.listMenu1 li a{
+    
+    color: #fcfcfc;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 25px;
+    border-top: 2px solid #f3f2cd;
+    padding-top: 1px;
+    transition:  all 0.2s ease;
+
+
+}
+.listMenu1 li a:hover{
+    border-top: 2px solid #f3f2cd;
+    padding-top: 5px;
+    transition:  all 0.2s ease;
+    
+}
+.menu2{
+    width: 170vh;
+    border-top: 3px solid rgba(107, 102, 102, 0.315);
+    border-right: 3px solid rgba(107, 102, 102, 0.315);
+   margin-top: -690px;
+   margin-left: 160px;
+    background: rgba(20, 20, 20, 0);
+    position: fixed;
+    height: 16vh;
+    backdrop-filter: blur(16px);
+    border-left: 3px solid rgba(107, 102, 102, 0.315);
+    border-bottom: 3px solid rgba(107, 102, 102, 0.315);
+    border-radius: 10px ;
+}
+.menu2:hover{
+   border: none;
+    background: rgb(20, 20, 20, 0.5);
+    margin-top: -625px;
+    transition: all 0.4s ease;
+    
+    
+}
+
+.container{
+   
+    width: 1350px;
+}
+html{
+    overflow-x: hidden;
+    
+}
+.content1 img{
+    display: none;
+}
+@media (max-width:575px) 
+{
+    .container{
+        width: 575px;
+    }
+    body{
+        width: 575px;
+    }
+    *{
+        width: 375px;
+    }
+    .menu{
+        margin-left: 80px;
+        width: 180px;
+    }
+    .menu:hover{
+        margin-left: 0px;
+    }
+.listMenu{
+    width: 100px;
+}
+    .listMenu li a{
+       
+        font-size: 15px;
+        
+    
+    
+    }
+    
+    .title{
+        font-size: 17px;
+        width: 100px;
+    }
+    .footerMenu{
+        
+        display: none;
+        
+    }
+    .ul1{
+        width: 100px;
+    }
+    .ul1 li{
+        width: 100px;
+    }
+    .menu2 {
+        margin-left: 70px;
+        margin-top: -590px;
+        font-size: 13px;
+        width: 415px;
+        height: 13vh;
+    }
+    .menu2:hover{
+        margin-top: -537px ;
+    }
+    .listMenu1 li a{
+        font-size: 12px;
+        
+    }
+    .top{
+        width: 30px;
+        transform: rotate(90deg);
+        margin-top: 40px;
+        position: absolute;
+        margin-left: 37vh;
+    }
+    .listMenu li{
+        margin: 0px 0;
+        
+    }
+    .listMenu1 ul{
+  
+        margin-left: 40px;
+       margin-right: -20px;
+    
+    }
+    .content img{
+        width: 375px;
+    }
+    .Kyrgyzstan{
+        margin-left: -390px;
+        font-size: 50px;
+    }
+    .Left{
+        width: 30px;
+        margin-left: 105px;
+        margin-top: 50px;
+    }
+    
+}
+@media (max-width:475px) 
+{
+   
+    .container{
+        width: 475px;
+    }
+    body{
+        width: 475px;
+    }
+    *{
+        width: 375px;
+    }
+    .menu{
+        margin-left: 80px;
+        width: 180px;
+    }
+    .menu:hover{
+        margin-left: 0px;
+    }
+.listMenu{
+    width: 100px;
+}
+    .listMenu li a{
+       
+        font-size: 15px;
+        
+    
+    
+    }
+    
+    .title{
+        font-size: 17px;
+        width: 100px;
+    }
+    .footerMenu{
+        
+        display: none;
+        
+    }
+    .ul1{
+        width: 100px;
+    }
+    .ul1 li{
+        width: 100px;
+    }
+    .menu2 {
+        margin-left: 30px;
+        margin-top: -760px;
+        font-size: 13px;
+        width: 415px;
+        height: 13vh;
+    }
+    .menu2:hover{
+        margin-top: -720px ;
+    }
+    .listMenu1 li a{
+        font-size: 12px;
+        
+    }
+    .top{
+        width: 30px;
+        transform: rotate(90deg);
+        margin-top: 40px;
+        position: absolute;
+        margin-left: 37vh;
+    }
+    .listMenu li{
+        margin: 0px 0;
+        
+    }
+    .listMenu1 ul{
+  
+        margin-left: 20px;
+       margin-right: 20px;
+    
+    }
+    .content img{
+        width: 375px;
+         display: none;
+         
+    }
+    .content{
+        display: none;
+    }
+.content1 img{
+    overflow: hidden;
+    display: block;
+    width: 475px;
+}
+    .Kyrgyzstan{
+        margin-left: -390px;
+        font-size: 60px;
+    }
+    .Left{
+        width: 30px;
+        margin-left: 105px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:375px) 
+{
+    .container{
+        width: 375px;
+    }
+    body{
+        width: 375px;
+    }
+    *{
+        width: 375px;
+    }
+    .menu{
+        margin-left: 80px;
+        width: 180px;
+    }
+    .menu:hover{
+        margin-left: 0px;
+    }
+.listMenu{
+    width: 100px;
+}
+    .listMenu li a{
+       
+        font-size: 15px;
+        
+    
+    
+    }
+    .listMenu1{
+        width: 300px;
+    }
+    .title{
+        font-size: 17px;
+        width: 100px;
+    }
+    .footerMenu{
+        
+        display: none;
+        
+    }
+    .ul1{
+        width: 100px;
+    }
+    .ul1 li{
+        width: 100px;
+    }
+    .menu2 {
+        margin-left: 40px;
+        margin-top: -610px;
+        font-size: 13px;
+        width: 315px;
+        height: 13vh;
+    }
+    .menu2:hover{
+        margin-top: -557px ;
+    }
+    .listMenu1 li a{
+        font-size: 12px;
+        
+    }
+    .top{
+        width: 30px;
+        transform: rotate(90deg);
+        margin-top: 40px;
+        position: absolute;
+        margin-left: 25vh;
+    }
+    .listMenu li{
+        margin: 0px 0;
+        
+    }
+    .listMenu1 ul{
+  
+        margin-left: 40px;
+       margin-right: 0px;
+    
+    }
+    .content img{
+        width: 375px;
+         display: none;
+         
+    }
+    .content{
+        display: none;
+    }
+.content1 img{
+    overflow: hidden;
+    display: block;
+}
+    .Kyrgyzstan{
+        margin-left: -390px;
+        font-size: 50px;
+    }
+    .Left{
+        width: 30px;
+        margin-left: 105px;
+        margin-top: 50px;
+    }
+    .delte{
+        display: none;
+    }
+}
+
